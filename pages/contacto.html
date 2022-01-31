@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>contacto - bolka</title>
+</head>
+
+<body>
+    <header id="arriba">
+        <nav>
+            <div>
+                <a href="index.html">
+                    <img src="../img/logo.png" alt="logo">
+                </a>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="../index.html">inicio</a>
+                </li>
+                <li><a href="productos.html">productos</a>
+                    <ul class="subMenu">
+                        <li>
+                            <a href="productos/remeras.html">remeras</a>
+                        <li>
+                            <a href="productos/musculosas.html">musculosas</a>
+                        </li>
+                        <li>
+                            <a href="productos/ofertas.html">ofertas</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="nosotros.html">nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.html">contacto</a>
+                </li>
+                <li>
+                    <a href="#pie">seguinos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Dejanos tu mensaje:</legend>
+                <div>
+                    <label for="nombre">nombre:</label>
+                    <input type="text" name="nombre" required placeholder="ej: gonzalo">
+                </div>
+                <div>
+                    <label for="apellido">apellido:</label>
+                    <input type="text" name="apellido" required placeholder="ej: galvan">
+                </div>
+                <div>
+                    <label for="email">email:</label>
+                    <input type="email" required placeholder="ej: email@gmail.com">
+                </div>
+                <div>
+                    <label for="telefono">telefono:</label>
+                    <input type="tel" name="telefono" placeholder="ej: 114788496">
+                </div>
+                <div>
+                    <label for="provincia">provincia:</label>
+                    <select name="provincia" required>
+                        <option value="argentina">buenos aires</option>
+                        <option value="cordoba">cordoba</option>
+                        <option value="santafe">santa fe</option>
+                        <option value="tucuman">tucuman</option>
+                        <option value="salta">salta</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="compra">compra</label> <br>
+                    <input type="radio" name="compra" value="mayor"> mayor <br>
+                    <input type="radio" name="compra" value="menor"> menor <br>
+                </div>
+                <br>
+                <div>
+                    <textarea name="comentarios" rows="10" cols="40">dejanos tus comentarios</textarea>
+                </div>
+                <div>
+                    <input type="submit" value="enviar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer id="pie">
+        <h4>seguinos:</h4>
+        <div>
+              <a href="https://www.instagram.com/bolka_ind" target="_blank">
+                  <img src="../img/igicon.png" alt="igicon">
+              </a>
+              <a href="https://www.twitter.com/bolka_ind" target="_blank">
+                  <img src="../img/twicon.png" alt="twicon">
+              </a>
+              <a href="https://www.facebook.com/bolka_ind" target="_blank">
+                  <img src="../img/fbicon.png" alt="fbicon">
+              </a>
+        </div>
+        <h6>todos los derechos reservados</h6>
+        </form>
+    </footer>
+
+
+</body>
+
+</html>
