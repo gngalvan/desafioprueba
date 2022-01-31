@@ -1,0 +1,75 @@
+
+.navbar{
+	position: fixed;
+	width: 100%;
+	font-family: 'Nunito', sans-serif;
+	z-index: 1;
+}
+
+.navbar-brand{
+	padding: 10px;
+}
+
+.colorSearch{
+	color: whitesmoke;
+	border-color: whitesmoke;
+}
+
+.mainInicio{
+	padding-top: 100px;
+	font-family: 'Nunito', sans-serif;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.gridContainer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;		
+}
+
+.cardInicio{
+	border: solid 1px black;
+	border-radius: 10px;
+	width: 100%;
+}
+
+img{
+	width: 100%;
+}
+
+/*footer*/
+
+footer{
+	margin-top: 30px;
+	background-color: black;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	width: 100%;
+}
+
+footer a{
+	margin: 10px;
+}
+
+footer h4{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+footer h6{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+footer div{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
